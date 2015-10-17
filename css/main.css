@@ -100,7 +100,10 @@ button.prev, button.next {
 }
 .next {
     right:50px;
+
 }
+.next:focus,.prev:focus {outline:0;}
+
 .name {
     width:100%;
     text-align:center;
@@ -116,9 +119,11 @@ button.prev, button.next {
 
 
 
+/*
 .gallery .hero:last-child {
     transform: rotate(180deg);
 }
+*/
 
 
 
